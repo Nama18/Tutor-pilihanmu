@@ -154,7 +154,7 @@ const en = {
     subtitle:
       "We're here to help you find the perfect learning path for your child. Reach out for a free consultation or any questions you might have.",
     email: "tutorpilihanmu@gmail.com",
-    address: "Jl. Pendidikan No. 123, Jakarta Selatan",
+    address: "Based in Bandung",
     cardTitle: "Ready to start?",
     cardText:
       "Chat with our education consultants directly on WhatsApp for immediate assistance.",
@@ -336,7 +336,7 @@ const id: Dict = {
     subtitle:
       "Kami siap membantu Anda menemukan jalur belajar yang tepat untuk anak Anda. Hubungi kami untuk konsultasi gratis atau pertanyaan apa pun.",
     email: "tutorpilihanmu@gmail.com",
-    address: "Jl. Pendidikan No. 123, Jakarta Selatan",
+    address: "Berbasis di Bandung",
     cardTitle: "Siap untuk memulai?",
     cardText:
       "Chat langsung dengan konsultan pendidikan kami di WhatsApp untuk bantuan segera.",
