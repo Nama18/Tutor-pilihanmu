@@ -45,8 +45,8 @@ export default function Navbar() {
     <header className="fixed inset-x-0 top-0 z-50">
       {/* Desktop nav */}
       <nav className={`hidden md:block ${barStyle}`}>
-        <div className="mx-auto flex max-w-container-max items-center justify-between px-6 py-6 lg:px-grid-gutter">
-          <a href="#home" className="flex items-center gap-2">
+        <div className="mx-auto grid max-w-container-max grid-cols-[1fr_auto_1fr] items-center px-6 py-6 lg:px-grid-gutter">
+          <a href="#home" className="flex items-center gap-2 justify-self-start">
             <Image
               src={LOGO_URL}
               alt="Tutor Pilihanmu"
@@ -84,7 +84,7 @@ export default function Navbar() {
               );
             })}
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 justify-self-end">
             <button
               type="button"
               onClick={() => setLanguage(language === "en" ? "id" : "en")}
