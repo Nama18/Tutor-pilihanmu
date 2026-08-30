@@ -11,7 +11,6 @@ export const NAV_LINKS = [
   { label: "Home", href: "#home" },
   { label: "Programs", href: "#programs" },
   { label: "About Us", href: "#about" },
-  { label: "Tutors", href: "#tutors" },
 ];
 
 export const WHATSAPP_URL = "https://wa.me/6285861541411";

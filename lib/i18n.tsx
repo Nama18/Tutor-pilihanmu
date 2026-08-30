@@ -15,7 +15,6 @@ const en = {
     home: "Home",
     programs: "Programs",
     about: "About Us",
-    tutors: "Tutors",
     startLearning: "Start Learning",
     toggleMenu: "Toggle menu",
   },
@@ -147,6 +146,38 @@ const en = {
       },
     ],
   },
+  faq: {
+    title: "Frequently Asked Questions",
+    subtitle:
+      "Got a question? We've gathered the answers parents and students ask us most.",
+    items: [
+      {
+        question: "How much does it cost to book a session?",
+        answer:
+          "Every session starts from just 75k — flexible pricing designed to fit your budget without compromising quality.",
+      },
+      {
+        question: "Why should I choose tutoring here?",
+        answer:
+          "You set your own schedule, learn from qualified tutors, and every lesson is tailored to your child's needs — so learning truly fits them, not the other way around.",
+      },
+      {
+        question: "Are there discount packages for booking more than a month?",
+        answer:
+          "Yes, definitely. The longer you book, the more you save — ask us about our monthly package rates!",
+      },
+      {
+        question: "What does free consultation mean?",
+        answer:
+          "We believe lessons should go straight to what matters. After you book, we'll arrange a free consultation with your tutor before the first session — a chance to discuss challenges and set clear learning goals together.",
+      },
+      {
+        question: "What ages do you accept?",
+        answer:
+          "We welcome students from elementary through high school — and adults are welcome too!",
+      },
+    ],
+  },
   contact: {
     mobileCtaTitle: "Ready to excel?",
     joinNow: "Join Now",
@@ -168,7 +199,7 @@ const en = {
     categories: "Categories",
     programs: "Programs",
     about: "About",
-    tutors: "Tutors",
+    faq: "FAQ",
   },
   footer: {
     tagline:
@@ -196,7 +227,6 @@ const id: Dict = {
     home: "Beranda",
     programs: "Program",
     about: "Tentang Kami",
-    tutors: "Tutor",
     startLearning: "Mulai Belajar",
     toggleMenu: "Buka menu",
   },
@@ -329,6 +359,38 @@ const id: Dict = {
       },
     ],
   },
+  faq: {
+    title: "Pertanyaan yang Sering Diajukan",
+    subtitle:
+      "Punya pertanyaan? Kami rangkum jawaban yang paling sering ditanyakan orang tua dan siswa.",
+    items: [
+      {
+        question: "Berapa biaya yang harus dikeluarkan untuk booking sesi?",
+        answer:
+          "Setiap sesi mulai dari 75 ribu saja — harga yang fleksibel dan tetap ramah di kantong, tanpa mengurangi kualitas belajar.",
+      },
+      {
+        question: "Kenapa harus pilih les di sini?",
+        answer:
+          "Jadwalnya fleksibel, tutornya berkualitas, dan setiap sesi disesuaikan dengan kebutuhan anak Anda — jadi belajar benar-benar mengikuti mereka, bukan sebaliknya.",
+      },
+      {
+        question: "Apakah ada paket diskon jika booking lebih dari sebulan?",
+        answer:
+          "Jelas ada. Semakin lama booking, semakin besar hematnya — tanyakan penawaran paket bulanan kami, ya!",
+      },
+      {
+        question: "Free konsultasi maksudnya gimana?",
+        answer:
+          "Kami percaya sesi les harus langsung fokus ke materi yang penting. Setelah Anda booking, kami akan jadwalkan konsultasi gratis dengan tutor sebelum les dimulai — waktunya untuk membahas kendala dan menyusun tujuan belajar bersama.",
+      },
+      {
+        question: "Menerima murid umur berapa saja?",
+        answer:
+          "Kami menerima siswa dari SD hingga SMA — dan untuk umum juga boleh, kok!",
+      },
+    ],
+  },
   contact: {
     mobileCtaTitle: "Siap berprestasi?",
     joinNow: "Gabung Sekarang",
@@ -350,7 +412,7 @@ const id: Dict = {
     categories: "Kategori",
     programs: "Program",
     about: "Tentang",
-    tutors: "Tutor",
+    faq: "FAQ",
   },
   footer: {
     tagline:

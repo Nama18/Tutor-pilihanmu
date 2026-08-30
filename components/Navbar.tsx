@@ -6,7 +6,7 @@ import { LOGO_URL } from "@/lib/site";
 import { useActiveSection } from "@/lib/useActiveSection";
 import { useLanguage } from "@/lib/i18n";
 
-const SECTION_IDS = ["home", "programs", "about", "tutors"];
+const SECTION_IDS = ["home", "programs", "about"];
 
 export default function Navbar() {
   const { language, setLanguage, t } = useLanguage();
@@ -27,7 +27,6 @@ export default function Navbar() {
     { label: t.nav.home, href: "#home" },
     { label: t.nav.programs, href: "#programs" },
     { label: t.nav.about, href: "#about" },
-    { label: t.nav.tutors, href: "#tutors" },
   ];
 
   // Over the hero: purple-tinted 70% bg, white text. Past it: light 70% bg, dark text.

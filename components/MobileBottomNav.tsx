@@ -37,12 +37,13 @@ export default function MobileBottomNav() {
       ),
     },
     {
-      label: t.bottomNav.tutors,
-      href: "#tutors",
+      label: t.bottomNav.faq,
+      href: "#faq",
       icon: (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="mb-1 h-6 w-6" aria-hidden>
-          <circle cx="12" cy="8" r="3.5" />
-          <path d="M5 20c1-2.8 3.7-4 7-4s6 1.2 7 4" />
+          <circle cx="12" cy="12" r="9" />
+          <path d="M9.5 9.5a2.5 2.5 0 0 1 4.5 1.5c0 1.5-2 2-2 3" />
+          <circle cx="12" cy="17" r="0.5" fill="currentColor" />
         </svg>
       ),
     },

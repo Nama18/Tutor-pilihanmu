@@ -4,6 +4,7 @@ import Programs from "@/components/Programs";
 import Subjects from "@/components/Subjects";
 import Features from "@/components/Features";
 import Testimonial from "@/components/Testimonial";
+import Faq from "@/components/Faq";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -19,6 +20,7 @@ export default function Home() {
         <Subjects />
         <Features />
         <Testimonial />
+        <Faq />
         <Contact />
       </main>
       <Footer />
